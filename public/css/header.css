@@ -1,0 +1,55 @@
+/*------------------
+  Filter search
+---------------------*/
+
+.filter-search {
+	position: relative;
+	z-index: 2;
+	margin-top:-66px ; 
+}
+
+.filter-form {
+	padding: 31px;
+	background: #82ae46;
+	border-radius: 3px;
+}
+
+.filter-form input {
+	background: #fff;
+	height: 46px;
+	border: none;
+	border-radius: 2px;
+	width: calc(43% - 20px);
+	margin-right: 20px;
+	padding: 5px 20px;
+	font-size: 14px;
+}
+
+.filter-form select {
+	background: #fff;
+	height: 46px;
+	border: none;
+	border-radius: 2px;
+	width: calc(20% - 20px);
+	margin-right: 20px;
+	padding-left: 20px;
+	font-size: 14px;
+}
+
+.filter-form .fs-submit {
+	background: #333;
+	border-radius: 2px;
+
+	position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 2px;
+    border-radius: 3px;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    color: #fff;
+}

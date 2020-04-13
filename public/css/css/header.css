@@ -1,0 +1,138 @@
+/*------------------
+  Filter search
+---------------------*/
+
+.filter-search {
+	position: relative;
+	z-index: 2;
+}
+
+.filter-form {
+	padding: 31px;
+	background: #30caa0;
+	border-radius: 3px;
+}
+
+.filter-form input {
+	background: #fff;
+	height: 46px;
+	border: none;
+	border-radius: 2px;
+	width: calc(43% - 20px);
+	margin-right: 20px;
+	padding: 5px 20px;
+	font-size: 14px;
+}
+
+.filter-form select {
+	background: #fff;
+	height: 46px;
+	border: none;
+	border-radius: 2px;
+	width: calc(20% - 20px);
+	margin-right: 20px;
+	padding-left: 20px;
+	font-size: 14px;
+}
+
+.filter-form .fs-submit {
+	background: #333;
+	width: 16%;
+	border-radius: 2px;
+}
+/*------------------
+	Responsive
+---------------------*/
+
+@media (min-width: 1200px) {
+	.container {
+		max-width: 1170px;
+	}
+}
+
+/* Medium screen : 992px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	.filter-form input {
+		width: calc(40% - 20px);
+	}
+	.filter-form select {
+		width: calc(19% - 20px);
+	}
+	.footer-widget .double-menu-widget ul:last-child {
+		margin-left: 30px;
+	}
+	.contact-info-warp {
+		padding: 30px 20px;
+	}
+	.contact-info-warp p {
+		font-size: 20px;
+		margin-right: 20px;
+	}
+}
+
+/* Tablet :768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.header-top-right {
+		padding-top: 20px;
+	}
+	.user-panel {
+		float: right;
+	}
+	.main-menu li a {
+		margin-left: 15px;
+	}
+	.hero-text p {
+		font-size: 18px;
+	}
+	.filter-form input {
+		width: calc(40% - 20px);
+	}
+	.filter-form select {
+		width: calc(19% - 20px);
+	}
+	.filter-form .fs-submit {
+		min-width: auto;
+		width: 20%;
+	}
+	.propertie-info .price {
+		float: left;
+		margin-top: 15px;
+	}
+	.f-cata {
+		margin-bottom: 30px;
+	}
+	.gallery-item.grid-wide {
+		width: calc(50% - 20px);
+	}
+	.gallery-item {
+		width: calc(50% - 20px);
+	}
+	.blog-item {
+		margin-bottom: 30px;
+	}
+	.footer-widget .double-menu-widget {
+		padding-left: 0;
+	}
+	.footer-bottom {
+		text-align: center;
+	}
+	.footer-nav,
+	.copyright {
+		float: none;
+	}
+	.page-top-section.single-blog {
+		padding-top: 200px;
+	}
+	.sidebar {
+		padding-left: 15px;
+		margin-top: 30px;
+	}
+	.team-member {
+		margin-bottom: 30px;
+	}
+	.contact-right {
+		padding-left: 0;
+	}
+}
